@@ -1,0 +1,1 @@
+grep -HPn '[ \t]+$' "divisor.exs" || echo

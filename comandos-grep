@@ -1,0 +1,7 @@
+lista ususarios do repositorio op-desafios 
+
+ls ./desafio-*/ -1 | grep -vE "./|^$"
+
+lista diretorios especificos
+
+find . -mindepth 2 -maxdepth 3 -type d

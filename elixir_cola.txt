@@ -1,0 +1,6 @@
+menores = 
+all |> Map.reject(fn {_key, val}-> val > 9 end)
+
+Map.to_list
+
+x |> Enum.sort_by(fn {_k, v}-> v end, :desc)
