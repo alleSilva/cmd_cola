@@ -1,6 +1,18 @@
 menores = 
 all |> Map.reject(fn {_key, val}-> val > 9 end)
 
+/////////////////////////
+
 Map.to_list
 
 x |> Enum.sort_by(fn {_k, v}-> v end, :desc)
+
+/////////////////////////////////////////////////
+
+conta ocorrencias [{k1, v1}, {k2, v2} ... ]
+
+Enum.reduce(%{}, fn x, acc -> Map.update(acc, List.last(x), 1, &(&1 + 1))
+
+{k1 => soma1,k2 => soma2}
+
+
